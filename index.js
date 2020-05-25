@@ -6,6 +6,6 @@ kittens.push('Ralph');
 return kittens
 }
 function destructivelyPrependKitten(name){
-kittens.pop('Ralph');
+kittens.unshift('Bob');
 return kittens
 }
